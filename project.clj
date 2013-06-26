@@ -9,7 +9,10 @@
                  [com.taoensso/timbre "2.1.2"]
                  [com.postspectacular/rotor "0.1.0"]
                  [com.taoensso/tower "1.7.1"]
-                 [markdown-clj "0.9.26"]]
+                 [markdown-clj "0.9.26"]
+                 [org.clojure/java.jdbc "0.2.3"]   
+                 [postgresql/postgresql "9.1-901.jdbc4"]
+                 [korma "0.3.0-RC5"]]
   :plugins [[lein-ring "0.8.5"]]
   :ring {:handler vv.handler/war-handler
          :init    vv.handler/init
