@@ -6,6 +6,7 @@
                  [compojure "1.1.5"]
                  [ring-server "0.2.8"]
                  [clabango "0.5"]
+                 [clavatar "0.2.1"]
                  [com.taoensso/timbre "2.1.2"]
                  [com.postspectacular/rotor "0.1.0"]
                  [com.taoensso/tower "1.7.1"]
